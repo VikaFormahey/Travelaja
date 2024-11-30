@@ -1,6 +1,8 @@
 @import "./default.css";
 
-@import "./News.css"
+@import "./Header_News.css";
+
+@import "./Main_News.css"
 
 
 

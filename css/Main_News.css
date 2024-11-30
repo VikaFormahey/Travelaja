@@ -18,3 +18,36 @@
     font-weight: 600;
     font-style: normal;
 }
+.Article{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:23px
+}
+.Article h1{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.Article p{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    
+}
+.Article ul{
+    display: flex;
+    gap:40px;
+    margin-top: 30px;
+}
+.Article ul li{
+    padding: 15px 10px;
+    color:#3D3E48;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.Article ul:nth-child(1){
+    background-color: #43B97F;
+    color:red;
+}

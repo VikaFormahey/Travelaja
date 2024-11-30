@@ -10,9 +10,9 @@ header .Logo{
     width: 20%;
 }
 header .Logo h1{
-    font-size: 40px;
+    font-size: 33.18px;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     color:#295943
 }
@@ -25,7 +25,7 @@ header .Logo h1{
 }
 .navigation ul li a{
     color:#3D3E48;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -40,8 +40,9 @@ header .Logo h1{
 }
 .language b{
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
+    font-size: 16px;
 }
 .country, .arrow{
     cursor: pointer;

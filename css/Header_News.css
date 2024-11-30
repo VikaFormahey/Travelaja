@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    padding: 0px 40px;
+    min-height:60px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+header .Logo{
+    width: 20%;
+}
+header .Logo h1{
+    font-size: 33.18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#295943
+}
+.navigation{
+    width: 50%;
+}
+.navigation ul{
+    display: flex;
+    gap: 50px;
+}
+.navigation ul li a{
+    color:#3D3E48;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navigation ul li:nth-child(4) a{
+    color:#43B97F;
+}
+.language{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.language b{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+.country, .arrow{
+    cursor: pointer;
+}

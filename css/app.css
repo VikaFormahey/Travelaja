@@ -1,8 +1,8 @@
 @import "./default.css";
 
-@import "./Global_Discover.css";
+@import "./DiscoverCss/Header_Discover.css";
 
-@import "./Header_Discover.css";
+@import "./DiscoverCss/Global_Discover.css";
 
 @import "./Header_News.css";
 

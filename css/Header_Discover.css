@@ -22,11 +22,24 @@ header .Logo h1{
     display: flex;
     gap: 50px;
 }
+.navigation ul li{
+    transition: 500ms;
+}
 .navigation ul li a{
     color:var(--color-nav);
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
+    transition: 500ms;
+}
+.navigation ul li a:hover{
+    color: var(--green-color-nav);
+}
+.navigation ul li:hover{
+    transform: translateY(-5px);
+}
+.navigation ul li:nth-child(4) a:hover{
+    color: var(--green-color-nav)!important;
 }
 .navigation ul li:nth-child(2) a{
     color: var(--green-color-nav);

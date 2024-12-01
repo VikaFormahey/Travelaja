@@ -38,7 +38,7 @@
 }
 .Article ul{
     display: flex;
-    gap:45px;
+    gap: 60px;
     margin-top: 70px;
 }
 .Article ul li{
@@ -56,4 +56,42 @@
 }
 .Article ul li:nth-child(2) {
     color: #43B97F;
+}
+.News-Picture{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    place-items: center;
+    row-gap: 130px;
+}
+.Picture-card{
+    width: 80%;
+    height: 370px;
+}
+.Picture-card-image {
+    height: 100%;
+   
+}
+.Picture-card-image img {
+    height: 100%; 
+    width: 100%;
+    border-radius: 10px;
+}
+.Picture-card-title{
+    margin-top: 15px;  
+    font-family: "Poppins", sans-serif;
+}
+.Picture-card-title h2{
+    line-height: 34.56px;
+    font-weight: 400;
+    font-size: 19.2px; 
+    
+}
+.Picture-card-title p{
+    font-size: 16px;
+    margin-top: 5px;
 }

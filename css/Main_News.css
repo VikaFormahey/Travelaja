@@ -1,6 +1,6 @@
 .imageSection{
     width: 100%;
-    height: 350px;
+    height: 300px;
     background:url(/img/islandImg.webp) no-repeat;
     background-size: cover;
     background-position: 70% 60%;
@@ -10,7 +10,7 @@
     content:"Our News";
     position: absolute;
     left:80px;
-    top:220px;
+    top:200px;
     color:white;
     font-size: 50px;
     font-family: "Poppins", sans-serif;
@@ -46,6 +46,11 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Article ul li:hover{
+    transform: translateY(-5px);
 }
 .Article ul li:first-child{
     padding: 16px 20px;
@@ -116,5 +121,43 @@
     
         font-size: 14px;
       
+    }
+}
+@media (max-width:1150px) {
+    .Article ul li {
+        font-size: 14px;
+    }
+    .Article ul {
+        gap: 45px;
+    }
+    .Article ul li:first-child {
+        padding: 16px 16px 16px 16px;
+    }
+    .News-Picture{
+        margin-top: 25px;
+    }
+    .Article h1{
+        font-size: 30px;
+    }
+    .Article p{
+        font-size: 16px;
+    }
+    .imageSection {
+        height: 270px;
+    }
+}
+@media (max-width:1000px) {
+    .News-Picture{
+        grid-template-columns:repeat(2, 1fr);
+    }
+    .Picture-card {
+        width: 90%;
+    }
+    .Picture-card-title h2{
+        font-size: 15.2px;
+        line-height: 25px;
+    }
+    .Picture-card-title p{
+        font-size: 12px;
     }
 }

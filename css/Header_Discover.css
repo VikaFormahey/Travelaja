@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    padding: 0px 40px;
+    min-height:60px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+header .Logo{
+    width: 20%;
+}
+header .Logo h1{
+    font-size: 33.18px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--logo-color);
+}
+.navigation{
+    width: 50%;
+}
+.navigation ul{
+    display: flex;
+    gap: 50px;
+}
+.navigation ul li a{
+    color:var(--color-nav);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+.navigation ul li:nth-child(2) a{
+    color: var(--green-color-nav);
+}
+.navigation ul li:nth-child(4) a{
+    color: var(--color-nav)!important;
+}
+.language{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.language b{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+.country, .arrow{
+    cursor: pointer;
+}

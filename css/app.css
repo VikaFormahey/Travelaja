@@ -1,13 +1,13 @@
 @import "./default.css";
-<<<<<<< HEAD
-@import "./Discover.css";
-=======
+
+@import "./Global_Discover.css";
+
+@import "./Header_Discover.css";
 
 @import "./Header_News.css";
 
 @import "./Main_News.css"
 
->>>>>>> main
 
 
 

@@ -4,6 +4,8 @@
 
 @import "./DiscoverCss/Global_Discover.css";
 
+@import "./DiscoverCss/Section_discover-picture.css";
+
 @import "./Header_News.css";
 
 @import "./Main_News.css"

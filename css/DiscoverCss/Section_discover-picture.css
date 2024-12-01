@@ -1,0 +1,17 @@
+.discover-picture{
+    background-image: url(/img/Discover.webp);
+    background-repeat: no-repeat;
+    background-position-y: -365px;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.discover-picture p{
+    color: var(--color-footer-text);
+    font-weight: 700;
+    font-size: 2rem;
+    position: absolute;
+    left: 5rem;
+    top: 11.75rem;
+}

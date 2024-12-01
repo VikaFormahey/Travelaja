@@ -1,4 +1,4 @@
-header{
+.News_Header{
     display: flex;
     padding: 0px 40px;
     min-height:60px;
@@ -6,10 +6,10 @@ header{
     align-items: center;
     z-index: 2;
 }
-header .Logo{
+.News_Header .Logo{
     width: 20%;
 }
-header .Logo h1{
+.News_Header .Logo h1{
     font-size: 33.18px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -65,7 +65,7 @@ header .Logo h1{
     }
 }
 @media (max-width:1150px) {
-    header .Logo h1 {
+    .News_Header .Logo h1 {
         font-size: 29px;
     }
     .navigation ul li a {

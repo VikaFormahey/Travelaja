@@ -47,3 +47,8 @@ header .Logo h1{
 .country, .arrow{
     cursor: pointer;
 }
+@media (max-width:1300px) {
+    .navigation {
+        width: 55%;
+    }
+}

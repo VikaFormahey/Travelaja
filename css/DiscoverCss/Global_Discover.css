@@ -7,3 +7,6 @@ body{
     --color-footer-text:#FFFFFF;
     --line-height-text:1.8rem;
 }
+p{
+    line-height: var(--line-height-text);
+}

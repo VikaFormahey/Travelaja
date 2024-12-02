@@ -19,6 +19,17 @@
 .navigation{
     width: 50%;
 }
+.navigation_Burger_Menu{
+    display: none;
+    
+}
+.navigation_Burger_Menu_Line{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+}
+
 .navigation ul{
     display: flex;
     gap: 50px;
@@ -59,6 +70,11 @@
 .country, .arrow{
     cursor: pointer;
 }
+@media (max-width:1450px) {
+    .navigation ul .navigationList a {
+        font-size: 14px;
+    }
+}
 @media (max-width:1300px) {
     .navigation {
         width: 55%;
@@ -68,8 +84,8 @@
     .News_Header .Logo h1 {
         font-size: 29px;
     }
-    .navigation ul li a {
-        font-size: 10px;
+    .navigation ul .navigationList a {
+        font-size: 13px;
     }
     .navigation ul {
         display: flex;
@@ -78,5 +94,60 @@
     .navigation {
         width: 60%;
     }
+   
+}
+@media (max-width:860px){
+    .navigation ul .navigationList a{
+        font-size: 12px;
+    }
+}
+@media (max-width:790px){
+    .navigation ul{
+        display: none;
+    }
+    
+    .navigation_Burger_Menu{
+        display: block; 
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 60px;
+        position: relative;
+    }
+    .navigation{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navigation_Burger_Menu:hover .navigation_Burger_Menu_Icon{
+        display: block;
+    }
+  
+    .navigation_Burger_Menu_Icon{
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        top: 57px;
+        right: 0;
+    }
+    .navigation_Burger_Menu_Icon ul{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        background-color: #ffff;
+        border-radius: 10px;
+        align-items: center;
+        gap:20px;
+        padding: 20px 0px 20px 0px;
+    }
+    .navigation_Burger_Menu_Icon_Item a{
+        color:#3D3E48;
+        font-size: 256px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        transition: 0.4s;
+    }
+
    
 }

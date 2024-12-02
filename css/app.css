@@ -9,8 +9,12 @@
 @import "./DiscoverCss/Main_Discover.css";
 
 @import "./Header_News.css";
+@import "./NewsCss/Header_News.css";
 
-@import "./Main_News.css"
+@import "./NewsCss/Main_News.css";
+
+
+@import "./NewsCss/News_Footer.css";
 
 
 

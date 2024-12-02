@@ -1,0 +1,235 @@
+.imageSection{
+    width: 100%;
+    height: 300px;
+    background:url(/img/NewsImage/islandImg.webp) no-repeat;
+    background-size: cover;
+    background-position: 70% 60%;
+    position: relative;
+}
+.imageSection::before{
+    content:"Our News";
+    position: absolute;
+    left:70px;
+    top:160px;
+    color:white;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.Article{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:23px
+}
+.Article h1{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.Article p{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    
+}
+.Article ul{
+    display: flex;
+    gap: 60px;
+    margin-top: 70px;
+}
+.Article ul li{
+    padding: 15px 10px;
+    color:#3D3E48;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Article ul li:hover{
+    transform: translateY(-5px);
+}
+.Article ul li:first-child{
+    padding: 16px 20px;
+    color:white;
+    background-color:#43B97F;
+    border-radius: 5px;
+}
+.Article ul li:nth-child(2) {
+    color: #43B97F;
+}
+.News-Picture{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    place-items: center;
+    padding: 0px 40px;
+}
+.Picture-card{
+    width: 95%;
+    height: 500px;
+}
+.Picture-card-image {
+    height: 70%;
+   
+}
+.Picture-card-image img {
+    height: 100%; 
+    width: 100%;
+    border-radius: 10px;
+}
+.Picture-card-title{
+    margin-top: 15px;  
+    font-family: "Poppins", sans-serif;
+    height: 20%;
+}
+.Picture-card-title h2{
+    line-height: 34.56px;
+    font-weight: 400;
+    font-size: 19.2px; 
+    
+}
+.Picture-card-title p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+@media (max-width:1600px) {
+    .News-Picture{
+        grid-template-columns:repeat(4, 1fr);
+    }
+}
+@media (max-width:1450px) {
+    .News-Picture{
+        grid-template-columns:repeat(3, 1fr);
+    }
+    .Picture-card {
+        width: 96%;
+        height: 550px;
+    }
+    .Picture-card-title h2{
+        font-size: 17.2px;
+    }
+    .Picture-card-title p{
+        font-size: 14px;
+    }
+  
+}
+@media (max-width:1150px) {
+    .Article ul li {
+        font-size: 14px;
+    }
+    .Article ul {
+        gap: 45px;
+    }
+    .Article ul li:first-child {
+        padding: 16px 16px 16px 16px;
+    }
+    .News-Picture{
+        margin-top: 25px;
+    }
+    .Article h1{
+        font-size: 30px;
+    }
+    .Article p{
+        font-size: 16px;
+    }
+    .imageSection {
+        height: 260px;
+    }
+    .imageSection::before{
+        left:60px;
+        top:180px;
+        font-size: 35px;
+     
+    }
+}
+@media (max-width:1000px) {
+    .News-Picture{
+        grid-template-columns:repeat(2, 1fr);
+    }
+    .Picture-card {
+        width: 90%;
+    }
+    .Picture-card-title h2{
+        font-size: 15.2px;
+        line-height: 25px;
+    }
+    .Picture-card-title p{
+        font-size: 12px;
+    }
+}
+@media (max-width:800px) {
+    .Article ul li {
+        font-size: 11px;
+    }
+    .Article ul{
+        gap: 10px;
+    }
+    .News-Picture{
+        grid-template-columns:repeat(1, 1fr);
+    }
+    .Picture-card{
+        width: 370px;
+    }
+   
+}
+@media (max-width:560px) {
+    .Article h1{
+        font-size: 25px;
+    }
+    .Article p{
+        font-size: 13px;
+    }
+    .Article ul li:first-child {
+        padding: 15px 10px 15px 10px;
+        height: fit-content;
+    }
+    .Article ul li {
+        font-size: 10px;
+    }
+}
+@media (max-width:520px) {
+    .Picture-card{
+        width: 320px;
+    }
+    .Picture-card-title h2{
+        font-size: 13.2px;
+        line-height: 25px;
+    }
+    .Picture-card-title p{
+        font-size: 11px;
+    }
+    .Article ul  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:450px){
+    .Article p {
+        font-size: 11px;
+    }
+    .Article h1 {
+        font-size: 22px;
+    }
+}
+@media (max-width:400px){
+    .News-Picture{
+        padding: 0px 20px;
+    }
+    .Article p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+@media (max-width:380px){
+    .Picture-card {
+        width: 280px;
+    }
+}
+

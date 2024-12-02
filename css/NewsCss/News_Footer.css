@@ -1,0 +1,112 @@
+.News_Footer{
+    padding: 50px 70px 50px 70px;
+    background-color: #295943;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.News_Footer_Web{
+    width: 278px;
+}
+.News_Footer_Web h1{
+    font-size: 33.18px;
+    color:#ffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.News_Footer_Web p{
+    font-size: 16px;
+    color:#ffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.News_Footer_Web h2{
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 19.2px;
+    line-height: 34.56px;
+    color:#ffff;
+}
+.News__Footer_Web_link{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.News_Footer_Links h1{
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 19.2px;
+    line-height: 34.56px;
+}
+.News_Footer_Links_list{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 20px;   
+}
+.News_Footer_Links_list_item a{
+    color:#ffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    transition: 0.5s;
+}
+.News_Footer_Links_list_item a:hover{
+    color: #afaaaa;
+    text-shadow: 0px 5px 10px black;
+}
+.News_Footer_Links_list_item{
+    transition: 0.5s;
+}
+.News_Footer_Links_list_item:hover{
+    transform: translateY(-4px);
+}
+
+.svgLink{
+    transition: 0.5s;
+}
+.svgLink:hover{
+    transform: translateY(-3px);
+}
+@media (max-width:1100px) {
+    .News_Footer {
+        gap: 40px;
+    }
+}
+@media (max-width:768px) {
+    .News_Footer{
+        justify-content: flex-start;
+        padding: 50px 0px 50px 70px
+    }
+    .width{
+        width: 278px;
+    }
+    .width-od{
+        width: 278px;
+    }
+   
+}
+@media (max-width:668px) {
+    .News_Footer{
+        justify-content: space-between;
+        padding-right: 50px;
+    }
+    .width{
+        width: fit-content;
+    }
+  
+}
+@media (max-width:545px) {
+    .News_Footer{
+        justify-content: center;
+        padding: 50px 0px 50px 0px;
+    }
+    .width{
+        width: 278px
+    }
+}

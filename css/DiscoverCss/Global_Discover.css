@@ -1,0 +1,12 @@
+body{
+    font-family: "Poppins", sans-serif;
+    --logo-color:#295943;
+    --green-color-nav:#43B97F;
+    --color-nav:#3D3E48;
+    --color-text:#000000;
+    --color-footer-text:#FFFFFF;
+    --line-height-text:1.8rem;
+}
+p{
+    line-height: var(--line-height-text);
+}

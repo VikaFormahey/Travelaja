@@ -1,5 +1,14 @@
 @import "./default.css";
 
+@import "./DiscoverCss/Header_Discover.css";
+
+@import "./DiscoverCss/Global_Discover.css";
+
+@import "./DiscoverCss/Section_discover-picture.css";
+
+@import "./DiscoverCss/Main_Discover.css";
+
+@import "./Header_News.css";
 @import "./NewsCss/Header_News.css";
 
 @import "./NewsCss/Main_News.css";

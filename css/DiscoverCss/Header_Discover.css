@@ -1,0 +1,62 @@
+.Disciver_header{
+    display: flex;
+    padding: 0px 40px;
+    min-height:60px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+.Disciver_header .Logo{
+    width: 20%;
+}
+.Disciver_header .Logo h1{
+    font-size: 33.18px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--logo-color);
+}
+.Discover_header_list{
+    width: 50%;
+}
+.Discover_header_list ul{
+    display: flex;
+    gap: 50px;
+}
+.Discover_header_list ul li{
+    transition: 500ms;
+}
+.Discover_header_list ul li a{
+    color:var(--color-nav);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    transition: 500ms;
+}
+.Discover_header_list ul li a:hover{
+    color: var(--green-color-nav);
+}
+.Discover_header_list ul li:hover{
+    transform: translateY(-5px);
+}
+.Discover_header_list ul li:nth-child(4) a:hover{
+    color: var(--green-color-nav)!important;
+}
+.Discover_header_list ul li:nth-child(2) a{
+    color: var(--green-color-nav);
+}
+.Discover_header_list ul li:nth-child(4) a{
+    color: var(--color-nav)!important;
+}
+.Discover_header_language{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Discover_header_language b{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+.Discover_header_language_country, .Discover_header_language_arrow{
+    cursor: pointer;
+}

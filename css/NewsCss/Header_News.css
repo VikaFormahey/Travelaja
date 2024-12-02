@@ -114,6 +114,7 @@
         justify-content: space-evenly;
         height: 60px;
         position: relative;
+        
     }
     .navigation{
         display: flex;
@@ -122,13 +123,27 @@
     .navigation_Burger_Menu:hover .navigation_Burger_Menu_Icon{
         display: block;
     }
-  
+    .navigation_Burger_Menu:hover .none{
+        display: none;
+    }
+    .rotateOne, .rotateTwo{
+        transition: 0.5s;
+    }
+    .navigation_Burger_Menu:hover .rotateOne {
+        transform: rotate(45deg) translate(10px, 5px);
+    }
+    
+    .navigation_Burger_Menu:hover .rotateTwo {
+        transform: rotate(-45deg) translate(9px, -5px);
+    }
+
+
     .navigation_Burger_Menu_Icon{
         display: none;
         position: absolute;
         z-index: 1000;
-        top: 57px;
-        right: 0;
+        top: 60px;
+        right:-150px;
     }
     .navigation_Burger_Menu_Icon ul{
         display: flex;
@@ -142,12 +157,66 @@
     }
     .navigation_Burger_Menu_Icon_Item a{
         color:#3D3E48;
-        font-size: 256px;
+        font-size: 25px;
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         font-style: normal;
         transition: 0.4s;
     }
-
+    .News_Header .Logo {
+        width: 40%;
+    }
+    .navigation {
+        width: 30%;
+    }
+}
+@media (max-width:650px) {
+    .navigation_Burger_Menu{
+        width: 50px;
+    }
+    .navigation_Burger_Menu_Line{
+        height: 3px;
+    }
    
+}
+@media (max-width:600px) {
+    .navigation_Burger_Menu_Icon ul{
+        width: 300px;
+        
+    }
+    .navigation_Burger_Menu_Icon{
+        top: 60px;
+        right:-120px;
+    }
+}
+@media(max-width:400px){
+    .News_Header{
+        padding: 0px 20px
+    }
+    .navigation_Burger_Menu {
+        width: 45px;
+    }
+    .navigation_Burger_Menu_Icon ul{
+        width: 250px;
+        
+    }
+    .navigation_Burger_Menu_Icon{
+        top: 60px;
+        right:-100px;
+    }
+    .navigation {
+        width: 25%;
+    }
+}
+@media (max-height:300px){
+    .navigation_Burger_Menu_Icon ul{
+        height: 200px;
+        padding: 0px 10px;
+    }
+    .navigation ul li a {
+        font-size: 13px;
+    }
+    .navigation_Burger_Menu_Icon{
+        top:60px
+    }
 }

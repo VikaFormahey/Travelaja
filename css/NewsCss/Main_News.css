@@ -205,5 +205,31 @@
     .Picture-card-title p{
         font-size: 11px;
     }
+    .Article ul  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:450px){
+    .Article p {
+        font-size: 11px;
+    }
+    .Article h1 {
+        font-size: 22px;
+    }
+}
+@media (max-width:400px){
+    .News-Picture{
+        padding: 0px 20px;
+    }
+    .Article p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+@media (max-width:380px){
+    .Picture-card {
+        width: 280px;
+    }
 }
 

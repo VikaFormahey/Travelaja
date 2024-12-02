@@ -1,11 +1,11 @@
 @import "./default.css";
 
-@import "./Header_News.css";
+@import "./NewsCss/Header_News.css";
 
-@import "./Main_News.css";
+@import "./NewsCss/Main_News.css";
 
 
-@import "./News_Footer.css";
+@import "./NewsCss/News_Footer.css";
 
 
 

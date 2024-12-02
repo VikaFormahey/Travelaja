@@ -1,0 +1,222 @@
+.News_Header{
+    display: flex;
+    padding: 0px 40px;
+    min-height:60px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+.News_Header .Logo{
+    width: 20%;
+}
+.News_Header .Logo h1{
+    font-size: 33.18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#295943
+}
+.navigation{
+    width: 50%;
+}
+.navigation_Burger_Menu{
+    display: none;
+    
+}
+.navigation_Burger_Menu_Line{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 50px;
+}
+.navigation ul li a{
+    color:#3D3E48;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: 0.4s;
+}
+.navigation ul li:nth-child(4) a{
+    color:#43B97F;
+}
+.navigation ul li{
+    transition: 0.5s;
+}
+
+.navigation ul li a:hover{
+    color:#1ae081;
+    
+}
+.navigation ul li:hover{
+    transform: translateY(-3px);
+}
+.language{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.language b{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+.country, .arrow{
+    cursor: pointer;
+}
+@media (max-width:1450px) {
+    .navigation ul .navigationList a {
+        font-size: 14px;
+    }
+}
+@media (max-width:1300px) {
+    .navigation {
+        width: 55%;
+    }
+}
+@media (max-width:1150px) {
+    .News_Header .Logo h1 {
+        font-size: 29px;
+    }
+    .navigation ul .navigationList a {
+        font-size: 13px;
+    }
+    .navigation ul {
+        display: flex;
+        gap: 30px;
+    }
+    .navigation {
+        width: 60%;
+    }
+   
+}
+@media (max-width:860px){
+    .navigation ul .navigationList a{
+        font-size: 12px;
+    }
+}
+@media (max-width:790px){
+    .navigation ul{
+        display: none;
+    }
+    
+    .navigation_Burger_Menu{
+        display: block; 
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 60px;
+        position: relative;
+        
+    }
+    .navigation{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navigation_Burger_Menu:hover .navigation_Burger_Menu_Icon{
+        display: block;
+    }
+    .navigation_Burger_Menu:hover .none{
+        display: none;
+    }
+    .rotateOne, .rotateTwo{
+        transition: 0.5s;
+    }
+    .navigation_Burger_Menu:hover .rotateOne {
+        transform: rotate(45deg) translate(10px, 5px);
+    }
+    
+    .navigation_Burger_Menu:hover .rotateTwo {
+        transform: rotate(-45deg) translate(9px, -5px);
+    }
+
+
+    .navigation_Burger_Menu_Icon{
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        top: 60px;
+        right:-150px;
+    }
+    .navigation_Burger_Menu_Icon ul{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        background-color: #ffff;
+        border-radius: 10px;
+        align-items: center;
+        gap:20px;
+        padding: 20px 0px 20px 0px;
+    }
+    .navigation_Burger_Menu_Icon_Item a{
+        color:#3D3E48;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        transition: 0.4s;
+    }
+    .News_Header .Logo {
+        width: 40%;
+    }
+    .navigation {
+        width: 30%;
+    }
+}
+@media (max-width:650px) {
+    .navigation_Burger_Menu{
+        width: 50px;
+    }
+    .navigation_Burger_Menu_Line{
+        height: 3px;
+    }
+   
+}
+@media (max-width:600px) {
+    .navigation_Burger_Menu_Icon ul{
+        width: 300px;
+        
+    }
+    .navigation_Burger_Menu_Icon{
+        top: 60px;
+        right:-120px;
+    }
+}
+@media(max-width:400px){
+    .News_Header{
+        padding: 0px 20px
+    }
+    .navigation_Burger_Menu {
+        width: 45px;
+    }
+    .navigation_Burger_Menu_Icon ul{
+        width: 250px;
+        
+    }
+    .navigation_Burger_Menu_Icon{
+        top: 60px;
+        right:-100px;
+    }
+    .navigation {
+        width: 25%;
+    }
+}
+@media (max-height:300px){
+    .navigation_Burger_Menu_Icon ul{
+        height: 200px;
+        padding: 0px 10px;
+    }
+    .navigation ul li a {
+        font-size: 13px;
+    }
+    .navigation_Burger_Menu_Icon{
+        top:60px
+    }
+}

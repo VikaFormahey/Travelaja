@@ -1,7 +1,7 @@
 .imageSection{
     width: 100%;
     height: 300px;
-    background:url(/img/islandImg.webp) no-repeat;
+    background:url(/img/NewsImage/islandImg.webp) no-repeat;
     background-size: cover;
     background-position: 70% 60%;
     position: relative;
@@ -98,6 +98,7 @@
     font-size: 16px;
     margin-top: 5px;
 }
+
 @media (max-width:1600px) {
     .News-Picture{
         grid-template-columns:repeat(4, 1fr);
@@ -117,11 +118,7 @@
     .Picture-card-title p{
         font-size: 14px;
     }
-    .navigation ul li a {
-    
-        font-size: 14px;
-      
-    }
+  
 }
 @media (max-width:1150px) {
     .Article ul li {
@@ -167,3 +164,72 @@
         font-size: 12px;
     }
 }
+@media (max-width:800px) {
+    .Article ul li {
+        font-size: 11px;
+    }
+    .Article ul{
+        gap: 10px;
+    }
+    .News-Picture{
+        grid-template-columns:repeat(1, 1fr);
+    }
+    .Picture-card{
+        width: 370px;
+    }
+   
+}
+@media (max-width:560px) {
+    .Article h1{
+        font-size: 25px;
+    }
+    .Article p{
+        font-size: 13px;
+    }
+    .Article ul li:first-child {
+        padding: 15px 10px 15px 10px;
+        height: fit-content;
+    }
+    .Article ul li {
+        font-size: 10px;
+    }
+}
+@media (max-width:520px) {
+    .Picture-card{
+        width: 320px;
+    }
+    .Picture-card-title h2{
+        font-size: 13.2px;
+        line-height: 25px;
+    }
+    .Picture-card-title p{
+        font-size: 11px;
+    }
+    .Article ul  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:450px){
+    .Article p {
+        font-size: 11px;
+    }
+    .Article h1 {
+        font-size: 22px;
+    }
+}
+@media (max-width:400px){
+    .News-Picture{
+        padding: 0px 20px;
+    }
+    .Article p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+@media (max-width:380px){
+    .Picture-card {
+        width: 280px;
+    }
+}
+

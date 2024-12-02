@@ -1,3 +1,18 @@
+:root {
+  --primary: #43B97F;
+  --text-color: #A8A7AB;
+  --title-color: #3D3E48;
+  --secondary: #295943;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
 @import "./default.css";
 
 @import "./Header_News.css";

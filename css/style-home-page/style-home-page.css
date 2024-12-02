@@ -1,0 +1,76 @@
+.container {
+  max-width: 1210px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.discover {
+  padding: 100px 0;
+}
+
+.discover__inner {
+  display: flex;
+  gap: 30px;
+}
+
+.discover__image {
+  flex: 1 1 48%;
+  max-width: 48%;
+  object-fit: contain;
+  height: auto;
+}
+
+.discover__box {
+  flex: 1 1 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.discover__box-text {
+  font-size: 1.6rem;
+  line-height: 180%;
+  color: var(--title-color)
+}
+
+.discover__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.discover__list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.discover__list-item span {
+  display: block;
+  font-weight: 700;
+  font-size: 2.7rem;
+  line-height: 120%;
+  padding: 5px 10px 5px 0;
+  color: var(--secondary);
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--secondary);
+}
+
+.h2-title {
+  font-weight: 700;
+  font-size: 2.76rem;
+}
+
+@media screen and (max-width: 48rem) {
+  .discover__inner  {
+    flex-wrap: wrap;
+  }
+  .discover__image  {
+    max-width: 100%;
+  }
+}

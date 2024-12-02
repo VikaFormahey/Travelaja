@@ -98,6 +98,21 @@
     font-size: 16px;
     margin-top: 5px;
 }
+.navigation_Burger_Menu{
+    visibility: hidden;
+    position: absolute;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60px;
+}
+.navigation_Burger_Menu_Line{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+}
 @media (max-width:1600px) {
     .News-Picture{
         grid-template-columns:repeat(4, 1fr);
@@ -166,4 +181,24 @@
     .Picture-card-title p{
         font-size: 12px;
     }
+}
+@media (max-width:860px){
+    .navigation ul li a{
+        font-size: 12px;
+    }
+}
+@media (max-width:790px){
+    .navigation ul{
+        display: none;
+    }
+    .navigation_Burger_Menu{
+        visibility: visible;
+        position: static;  
+    }
+    .navigation{
+        display: flex;
+        justify-content: flex-end;
+    }
+   
+   
 }

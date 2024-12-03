@@ -15,14 +15,14 @@
 </head>
 
 <body>
-  <section class="main">
+  <main class="main">
     <section class="about">
-      <div class="about-travelaja">
-        <div class="text">
-          <h3 class="main-text">
+      <div class="about__travelaja">
+        <div>
+          <h3 class="about__title">
             About Travelaja.com
           </h3>
-          <p class="paragraph-text">
+          <p class="about__pharagraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dictum et in feugiat. Platea in diam, est
             congue. Posuere sapien morbi augue ultrices. Et facilisi orci sollicitudin placerat lacus lacus nibh.
             Egestas
@@ -30,8 +30,8 @@
             nam sollicitudin vitae volutpat ac molestie. Turpis pellentesque sit pellentesque id cras lobortis tortor,
             blandit.
           </p>
-          </br>
-          <p class="paragraph-text">
+          <div class="about__spacing"></div>
+          <p class="about__pharagraph">
             Id ac non, semper turpis maecenas. Convallis tempor fringilla quisque arcu, dictum. Vitae cursus vel netus
             tincidunt vitae. Malesuada velit, at mattis adipiscing quisque tristique id magna. Blandit porta sit nam
             magna
@@ -40,66 +40,82 @@
           </p>
         </div>
         <div>
-          <img src="./img/AboutTravelaja.png" alt="AboutTravelaja" class="girls-image">
+          <img class="about__image" src="./img/AboutUsImg/AboutTravelaja.png" alt="AboutTravelaja">
         </div>
       </div>
+    </section>
+    <section class="team">
+      <div>
+        <h4 class="team__title">Our Teams</h3>
+        <p class="about__pharagraph">Lorem ipsum dolor sit amet</p>
+      </div>
+      <ul class="team__components">
+        <li>
+          <div>
+            <img class="team__image" src="./img/AboutUsImg/Agung.png" alt="Agung">
+          </div>
+          <h5 class="team__name">Agung perdana</h3>
+          <p class="team__role">Web Designer</p>
+        </li>
+        <li>
+          <div>
+            <img class="team__image" src="./img/AboutUsImg/Viola.png" alt="Viola Resti">
+          </div>
+          <h5 class="team__name">Viola Resti</h3>
+          <p class="team__role">Marketing Director</p>
+        </li>
+        <li>
+          <div>
+            <img class="team__image" src="./img/AboutUsImg/Rahardianysah.png" alt="Rahardianysah">
+          </div>
+          <h5 class="team__name">Rahardianysah</h3>
+          <p class="team__role">International Relations</p>
+        </li>
+        <li>
+          <div>
+            <img class="team__image" src="./img/AboutUsImg/Andika.png" alt="Andika">
+          </div>
+          <h5 class="team__name">Andika</h3>
+          <p class="team__role">Medical Check</p>
+        </li>
+        <li>
+          <div>
+            <img class="team__image" src="./img/AboutUsImg/Theresa.png" alt="Theresa Russell">
+          </div>
+          <h5 class="team__name">Theresa Russell</h3>
+          <p class="team__role">Doctor Assistant</p>
+        </li>
+      </ul>
     </section>
     <section>
-      <div class="team">
-        <div>
-          <h3 class="team-header">Our Teams</h3>
-          <p class="paragraph-text">Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="our-team">
+      <ul class="options">
+        <li>
           <div>
-            <img src="./img/Agung.png" alt="Agung" class="team-image">
-            <h3 class="name">Agung perdana</h3>
-            <p class="role">Web Designer</p>
+            <img class="options__image" src="./img/AboutUsImg/travelIcon.png" alt="Travel Icon">
           </div>
+          <p class="options__description">TRAVEL</p>
+        </li>
+        <li>
           <div>
-            <img src="./img/Viola.png" alt="Viola Resti" class="team-image">
-            <h3 class="name">Viola Resti</h3>
-            <p class="role">Marketing Director</p>
+            <img class="options__image" src="./img/AboutUsImg/cityIcon.png" alt="City Icon">
           </div>
+          <p class="options__description">CITY TOUR</p>
+        </li>
+        <li>
           <div>
-            <img src="./img/Rahardianysah.png" alt="Rahardianysah" class="team-image">
-            <h3 class="name">Rahardianysah</h3>
-            <p class="role">International Relations</p>
+            <img class="options__image" src="./img/AboutUsImg/islandIcon.png" alt="Island Icon">
           </div>
+          <p class="options__description">ISLAND TOUR</p>
+        </li>
+        <li>
           <div>
-            <img src="./img/Andika.png" alt="Andika" class="team-image">
-            <h3 class="name">Andika</h3>
-            <p class="role">Medical Check</p>
+            <img class="options__image" src="./img/AboutUsImg/mapIcon.png" alt="Map Icon">
           </div>
-          <div>
-            <img src="./img/Theresa.png" alt="Theresa Russell" class="team-image">
-            <h3 class="name">Theresa Russell</h3>
-            <p class="role">Doctor Assistant</p>
-          </div>
-        </div>
-      </div>
+          <p class="options__description">EXPLORE WORLD</p>
+        </li>
+      </ul>
     </section>
-    <section>
-      <div class="tour-options">
-        <div>
-          <img src="./img/travelIcon.png" alt="Travel Icon" class="options-image">
-          <p class="description">TRAVEL</p>
-        </div>
-        <div>
-          <img src="./img/cityIcon.png" alt="City Icon" class="options-image">
-          <p class="description">CITY TOUR</p>
-        </div>
-        <div>
-          <img src="./img/islandIcon.png" alt="Island Icon" class="options-image">
-          <p class="description">ISLAND TOUR</p>
-        </div>
-        <div>
-          <img src="./img/mapIcon.png" alt="Map Icon" class="options-image">
-          <p class="description">EXPLORE WORLD</p>
-        </div>
-      </div>
-    </section>
-  </section>
+  </main>
 
 </body>
 

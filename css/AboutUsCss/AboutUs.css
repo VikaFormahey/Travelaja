@@ -2,9 +2,12 @@
   --primary-color: #3D3E48;
   --secondary-color: #A8A7AB;
   --text-black: #000000;
+  --text-white: #fff;
+  --footer-background-color: #295943;
   --font-family: "Poppins", sans-serif;
   --font-weight-bold: 700;
   --font-weight-regular: 400;
+  --font-size-xlarge: 2.07rem;
   --font-size-large: 1.73rem;
   --font-size-medium: 1.2rem;
   --font-size-small: 1rem;
@@ -110,4 +113,62 @@
   font-style: normal;
   color: var(--secondary-color);
   line-height: 2.16rem;
+}
+
+.footer {
+  padding: 3.125rem 4.375rem 3.125rem 4.375rem;
+  background-color: var(--footer-background-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__aboutus {
+  width: 17.375rem;
+}
+.footer__aboutus h1 {
+  font-size: var(--font-size-xlarge);
+  color: var(--text-white);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+}
+.footer__aboutus p {
+  margin-top: 1.25rem;
+  font-size: var(--font-size-small);
+  color: var(--text-white);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.5rem;
+}
+.footer__aboutus h2 {
+  margin-top: 2.5rem;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-medium);
+  line-height: 2.16rem;
+  color: var(--text-white);
+}
+.footer__link {
+  margin-top: 0.625rem;
+  display: flex;
+  gap: 0.625rem;
+}
+.footer__links h1 {
+  color: var(--text-white);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-medium);
+  line-height: 2.16rem;
+}
+.footer_link-list {
+  margin-top: 1.25rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;  
+}
+.footer__link-items a {
+  color: var(--text-white);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-small);
+  line-height: 1.5rem;
 }
